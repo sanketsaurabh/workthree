@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:workthree/coding/BlocIdea/Bloc_00.dart';
+import 'package:workthree/coding/BlocIdea/Bloc_03.dart';
+import 'package:workthree/coding/ProviderPack/provider_00.dart';
 import 'package:workthree/coding/animation_gest.dart';
 import 'package:workthree/coding/bottom_navi.dart';
 import 'package:workthree/coding/database_operation.dart';
@@ -17,7 +20,7 @@ class MyApp extends StatelessWidget {
     
   },
       debugShowCheckedModeBanner: false,
-      home: MyHome(),
+      home: CounterUI(),
     );
   }
 }
